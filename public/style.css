@@ -1,0 +1,54 @@
+body {
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    padding: 16px;
+}
+
+.stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h2 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.form-control {
+    padding: 11px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.badge {
+    padding: 8px 12px;
+}
+
+@media (max-width: 768px) {
+
+    .stat-card {
+        margin-bottom: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+}

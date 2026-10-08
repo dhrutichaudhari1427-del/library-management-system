@@ -1,0 +1,14 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "College Mini Project - Library Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.5"
+  }
+}
